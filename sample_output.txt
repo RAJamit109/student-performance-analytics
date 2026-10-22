@@ -1,0 +1,113 @@
+
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+Dataset loaded successfully.
+Number of records: 25
+Columns: Student_ID, Name, Department, Python, Java, DBMS, Computer_Networks, Attendance
+
+========================================================================
+1. STUDENT PERFORMANCE TABLE
+========================================================================
+ Student_ID          Name Department  Total  Average Grade  Attendance Status
+        101   Amit Mondal        CSE    347    86.75     A          94   Pass
+        102     Rahul Das        CSE    285    71.25     B          82   Pass
+        103     Gouri Sen        CSE    374    93.50    A+          97   Pass
+        104     Sagar Roy        CSE    345    86.25     A          91   Pass
+        105  Arpita Ghosh        CSE    321    80.25     A          88   Pass
+        106   Ishan Dutta        CSE    282    70.50     B          79   Pass
+        107    Priya Paul        CSE    360    90.00    A+          95   Pass
+        108    Ankit Saha        CSE    249    62.25     C          76   Pass
+        109     Sneha Das        CSE    336    84.00     A          90   Pass
+        110 Riya Banerjee        CSE    298    74.50     B          85   Pass
+        111  Soumik Ghosh        CSE    214    53.50     D          72   Fail
+        112   Moumita Roy        CSE    350    87.50     A          93   Pass
+        113   Rajdeep Sen        CSE    248    62.00     C          81   Pass
+        114     Tania Dey        CSE    377    94.25    A+          98   Pass
+        115 Abhishek Paul        CSE    297    74.25     B          84   Pass
+        116   Nandini Das        CSE    332    83.00     A          89   Pass
+        117     Kunal Roy        CSE    218    54.50     D          78   Pass
+        118     Puja Saha        CSE    280    70.00     B          86   Pass
+        119   Rohan Ghosh        CSE    352    88.00     A          92   Pass
+        120  Sohini Dutta        CSE    315    78.75     B          87   Pass
+        121    Debjit Das        CSE    180    45.00     F          74   Fail
+        122    Ananya Sen        CSE    366    91.50    A+          96   Pass
+        123    Niloy Paul        CSE    279    69.75     C          80   Pass
+        124  Mitali Ghosh        CSE    339    84.75     A          91   Pass
+        125  Subhajit Roy        CSE    240    60.00     C          77   Pass
+
+========================================================================
+2. CLASS SUMMARY
+========================================================================
+Total students       : 25
+Passed students      : 23
+Failed students      : 2
+Overall class average: 75.84
+Highest individual mark: 96
+Lowest individual mark : 42
+
+========================================================================
+3. HIGHEST AND LOWEST PERFORMANCE
+========================================================================
+Highest performer: Tania Dey (94.25, Grade A+)
+Lowest performer : Debjit Das (45.00, Grade F)
+
+========================================================================
+4. SUBJECT-WISE PERFORMANCE ANALYSIS
+========================================================================
+                    mean   max   min
+Python             75.60  96.0  42.0
+Java               75.04  94.0  46.0
+DBMS               76.44  96.0  44.0
+Computer_Networks  76.28  95.0  48.0
+
+Best subject   : DBMS (76.44)
+Weakest subject: Java (75.04)
+
+========================================================================
+5. TOP 3 PERFORMERS
+========================================================================
+ Student_ID       Name  Average Grade
+        114  Tania Dey    94.25    A+
+        103  Gouri Sen    93.50    A+
+        122 Ananya Sen    91.50    A+
+
+========================================================================
+6. BOTTOM 3 PERFORMERS
+========================================================================
+ Student_ID         Name  Average Grade
+        121   Debjit Das     45.0     F
+        111 Soumik Ghosh     53.5     D
+        117    Kunal Roy     54.5     D
+
+========================================================================
+7. GRADE DISTRIBUTION
+========================================================================
+Grade A+: 4 student(s)
+Grade A: 8 student(s)
+Grade B: 6 student(s)
+Grade C: 4 student(s)
+Grade D: 2 student(s)
+Grade F: 1 student(s)
+
+========================================================================
+8. ATTENDANCE ANALYSIS
+========================================================================
+Average attendance: 86.2%
+Students below 75% attendance: 2
+ Student_ID         Name  Attendance Status
+        111 Soumik Ghosh          72   Fail
+        121   Debjit Das          74   Fail
+
+========================================================================
+9. PRACTICAL QUESTIONS ANSWERED
+========================================================================
+Which student has the highest average? Tania Dey
+Which subject has the best average? DBMS
+How many students passed? 23
+What is the overall class average? 75.84
+Which subject has the lowest average? Java
+
+========================================================================
+10. PROJECT COMPLETED
+========================================================================
+Analysis completed successfully.
+Technologies used: Python, NumPy, Pandas
